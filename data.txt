@@ -3,5 +3,5 @@
     {"Nome":"Paolo", "Cognome":"Rossi","Eta":32},
     {"Nome":"Giuseppe", "Cognome":"Bianchi","Eta":10},
     {"Nome":"Francesca", "Cognome":"Esposito","Eta":28},
-    {"Nome":"Andrea", "Cognome":"Verdi","Età":6},
+    {"Nome":"Andrea", "Cognome":"Verdi","Eta":6}
 ]
