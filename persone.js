@@ -16,9 +16,24 @@ function load(){
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
+var e;
+var ul;
+var li;
 function print(){
-
-}
+  ul = document.createElement("UL");
+  for(var i in ppl){
+    li = document.createElement("LI");
+    for(var x in ppl[i]){   
+        e = document.createTextNode(ppl[i][x]+ " ");
+        li.appendChild(e);        
+    }
+     
+    ul.append(li);
+  }
+  console.log(ul);
+  doc = document.getElementById("ppl");
+  doc.appendChild(ul);
+  }
 
 
 
